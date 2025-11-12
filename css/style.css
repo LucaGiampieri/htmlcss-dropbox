@@ -3,3 +3,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Generics */
+
+.flex{
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Debug */
+
+/* Navbar */
+
+.navbar{
+    height: 100px;
+    background-color: white;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 30px 0;
+}
+
+.nav-link{
+    flex-basis: calc(100% / 4);
+}
+
+.nav-text {
+    justify-content: space-evenly;
+}
+
+/* Jumbotron */
+
+.jumbotron{
+    background-color:#B4D0E6 ;
+}
+
+.jumbotron-container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+#Jumbotron-title{
+    text-align: center;
+    font-size: 100px;
+    padding: 30px 0;
+}
+
+.jumbotron-left-section{
+    flex-basis: 30%;
+    height: 400px;
+    background-color: blue;
+}
+
+.jumbotron-right-section{
+    flex-basis: 70%;
+    height: 400px;
+    background-color: aquamarine;
+}
