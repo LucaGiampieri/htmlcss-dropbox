@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,11 @@
 
 /* Generics */
 
-.flex{
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.flex {
     display: flex;
 }
 
@@ -14,7 +18,8 @@ a {
     text-decoration: none;
 }
 
-ul, li{
+ul,
+li {
     list-style-type: none;
 }
 
@@ -32,8 +37,7 @@ ul, li{
 
 /* Navbar */
 
-.navbar{
-    height: 100px;
+.navbar {
     background-color: white;
     justify-content: space-between;
     position: sticky;
@@ -42,7 +46,7 @@ ul, li{
     padding: 30px 0;
 }
 
-.nav-link{
+.nav-link {
     flex-basis: calc(100% / 4);
 }
 
@@ -52,31 +56,93 @@ ul, li{
 
 /* Jumbotron */
 
-.jumbotron{
-    background-color:#B4D0E6 ;
+.jumbotron-top {
+    background-color: #B4D0E6;
 }
 
-.jumbotron-container{
+.jumbotron-bottom {
+    height: 100px;
+    border-bottom: 1px solid gray;
+}
+
+.jumbotron-container {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px 0;
 }
 
-#Jumbotron-title{
+#Jumbotron-title {
     text-align: center;
     font-size: 100px;
     padding: 30px 0;
 }
 
-.jumbotron-left-section{
+.jumbotron-left-section {
     flex-basis: 30%;
     height: 400px;
     background-color: blue;
 }
 
-.jumbotron-right-section{
+.jumbotron-right-section {
     flex-basis: 70%;
     height: 400px;
     background-color: aquamarine;
+}
+
+/* Sections */
+
+.sections-container {
+    width: 70%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Subscription Rates Section  */
+
+.subscription-title {
+    padding: 40px 0;
+    font-size: 40px;
+}
+
+.billing{
+    gap: 50px;
+    padding: 40px 0;
+}
+
+.billing-text{
+    align-items: center;
+    gap: 5px;
+}
+
+.check {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 5px solid blue;
+    border-radius: 50%;
+}
+
+.not-check {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+
+.subscriprions-container{
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px 0;
+}
+
+.subscription-column{
+    flex-basis: calc(100% / 3 - 60px / 3 );
+    border: 1px solid gray;
+}
+
+.subscription-row{
+    flex-basis: 100%;
+    border: 1px solid gray;
 }
