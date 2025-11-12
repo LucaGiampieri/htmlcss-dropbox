@@ -105,12 +105,12 @@ li {
     font-size: 40px;
 }
 
-.billing{
+.billing {
     gap: 50px;
     padding: 40px 0;
 }
 
-.billing-text{
+.billing-text {
     align-items: center;
     gap: 5px;
 }
@@ -131,18 +131,32 @@ li {
     border-radius: 50%;
 }
 
-.subscriprions-container{
+.subscriprions-container {
     flex-wrap: wrap;
     gap: 30px;
     padding: 20px 0;
 }
 
-.subscription-column{
-    flex-basis: calc(100% / 3 - 60px / 3 );
+.subscription-column {
+    flex-basis: calc(100% / 3 - 60px / 3);
     border: 1px solid gray;
 }
 
-.subscription-row{
+.subscription-row {
     flex-basis: 100%;
     border: 1px solid gray;
+}
+
+/* Partner Section */
+
+.partner-container {
+    padding: 50px 0;
+}
+
+.left-partner-column {
+    flex-basis: 60%;
+}
+
+.right-partner-column {
+    flex-basis: 40%;
 }
