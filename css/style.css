@@ -35,14 +35,19 @@ li {
 
 /* Debug */
 
-/* Navbar */
+/* Header */
 
-.navbar {
+.header {
     background-color: white;
-    justify-content: space-between;
     position: sticky;
     top: 0;
     z-index: 10;
+}
+
+/* Navbar */
+
+.navbar {
+    justify-content: space-between;
     padding: 30px 0;
 }
 
@@ -155,27 +160,42 @@ li {
 
 .left-partner-column {
     flex-basis: 60%;
-     border: 1px solid gray;
+    border: 1px solid gray;
 }
 
 .right-partner-column {
     flex-basis: 40%;
-     border: 1px solid gray;
+    border: 1px solid gray;
 }
 
 /* Business Section */
 
-.business-title{
+.business-title {
     font-size: 50px;
     padding: 40px 0;
 }
 
-.business-container{
+.business-container {
     flex-wrap: wrap;
     gap: 20px;
 }
 
-.business-card{
+.business-card {
     flex-basis: calc(100% / 3 - 40px / 3);
     border: 1px solid gray;
+}
+
+/* Call To Armas Section */
+
+.call-title {
+    font-size: 40px;
+    padding-top: 150px;
+    padding-bottom: 40px
+}
+
+.call-link {
+    padding-bottom: 150px;
+    font-size: 18px;
+    text-decoration: underline;
+    color: blue;
 }
