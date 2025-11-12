@@ -7,7 +7,7 @@
 /* Generics */
 
 body {
-    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: sans-serif;
 }
 
 .flex {
@@ -155,8 +155,27 @@ li {
 
 .left-partner-column {
     flex-basis: 60%;
+     border: 1px solid gray;
 }
 
 .right-partner-column {
     flex-basis: 40%;
+     border: 1px solid gray;
+}
+
+/* Business Section */
+
+.business-title{
+    font-size: 50px;
+    padding: 40px 0;
+}
+
+.business-container{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.business-card{
+    flex-basis: calc(100% / 3 - 40px / 3);
+    border: 1px solid gray;
 }
