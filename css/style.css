@@ -244,14 +244,14 @@ li {
 
 /* Column Sections */
 
-.column-top {
+.subscription-top {
     font-weight: bold;
     text-align: center;
     padding: 10px 0;
     border-bottom: 1px solid gray;
 }
 
-.column-bottom {
+.subscription-bottom{
     padding: 40px;
 }
 
@@ -286,36 +286,45 @@ li {
     gap: 10px;
 }
 
-.column-button{
+.column-button {
     padding: 10px 43px;
 }
 
-.column-buy{
+.column-buy {
     padding: 50px 0;
 }
 
-.column-border-bottom{
+.column-border-bottom {
     padding-bottom: 50px;
     border-bottom: 1px solid gray;
 }
 
-.column-buy-now{
+.column-buy-now {
     color: blue;
     text-decoration: underline;
 }
 
-.column-subtitle{
+.column-subtitle {
     padding-top: 60px;
     font-size: 16px;
 }
 
-.column-footer-text{
-    padding: 30px 0;
+.column-footer-text {
+    padding-top: 30px;
     gap: 10px;
 }
 
-.column-check{
+.column-check {
     color: blue;
+}
+
+/* Row Sections */
+
+.row-top{
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
 }
 
 /* Partner Section */
