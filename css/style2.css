@@ -1,0 +1,38 @@
+.main-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    padding: 50px 0;
+}
+
+.input {
+    padding-right: 200px;
+}
+
+.separator {
+    padding-bottom: 10px;
+}
+
+.left {
+    flex-basis: 50%;
+}
+
+.right {
+    flex-basis: 50%;
+}
+
+.link-separator {
+    padding-top: 100px;
+    padding-left: 123px;
+}
+
+.link {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: gray;
+    border: 2px solid black;
+
+}
