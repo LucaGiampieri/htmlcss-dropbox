@@ -140,6 +140,110 @@ li {
     top: 75px;
 }
 
+/* Column Sections */
+
+.subscription-card-top {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+
+.subscription-card-bottom {
+    padding: 40px;
+}
+
+.subscription-card-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.column-price {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.column-time {
+    color: grey;
+    padding-bottom: 40px;
+}
+
+.column-users {
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+.column-storage {
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+.column-share {
+    padding-bottom: 50px;
+    gap: 10px;
+}
+
+.column-button {
+    padding: 10px 43px;
+}
+
+.column-buy {
+    padding: 50px 0;
+}
+
+.column-border-bottom {
+    padding-bottom: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.column-buy-now {
+    color: blue;
+    text-decoration: underline;
+}
+
+.column-subtitle {
+    padding-top: 60px;
+    font-size: 16px;
+}
+
+.column-footer-text {
+    padding-top: 30px;
+    gap: 10px;
+}
+
+.column-check {
+    color: blue;
+}
+
+/* Row Sections */
+
+.row-top {
+    justify-content: space-between;
+}
+
+.row-left {
+    flex-basis: 65%;
+}
+
+.row-right {
+    text-align: right;
+    flex-basis: 35%;
+}
+
+.row-button {
+    padding: 10px 30px;
+}
+
+.row-subtitle {
+    padding-top: 30px;
+    font-weight: 700;
+}
+
+.row-text {
+    padding-top: 50px;
+}
+
 /* Footer */
 
 .footer {
@@ -154,7 +258,6 @@ li {
 
 .footer-column {
     flex-basis: calc(100% / 5 - 80px / 5);
-    flex-direction: column;
     padding-bottom: 130px;
 }
 
@@ -242,90 +345,6 @@ li {
     border: 1px solid gray;
 }
 
-/* Column Sections */
-
-.subscription-top {
-    font-weight: bold;
-    text-align: center;
-    padding: 10px 0;
-    border-bottom: 1px solid gray;
-}
-
-.subscription-bottom{
-    padding: 40px;
-}
-
-.subscription-column-title {
-    font-size: 25px;
-    font-weight: 700;
-    padding-bottom: 20px;
-}
-
-.column-price {
-    font-weight: bold;
-    padding-bottom: 15px;
-}
-
-.column-time {
-    color: grey;
-    padding-bottom: 40px;
-}
-
-.column-users {
-    padding-bottom: 20px;
-    gap: 10px;
-}
-
-.column-storage {
-    padding-bottom: 20px;
-    gap: 10px;
-}
-
-.column-share {
-    padding-bottom: 50px;
-    gap: 10px;
-}
-
-.column-button {
-    padding: 10px 43px;
-}
-
-.column-buy {
-    padding: 50px 0;
-}
-
-.column-border-bottom {
-    padding-bottom: 50px;
-    border-bottom: 1px solid gray;
-}
-
-.column-buy-now {
-    color: blue;
-    text-decoration: underline;
-}
-
-.column-subtitle {
-    padding-top: 60px;
-    font-size: 16px;
-}
-
-.column-footer-text {
-    padding-top: 30px;
-    gap: 10px;
-}
-
-.column-check {
-    color: blue;
-}
-
-/* Row Sections */
-
-.row-top{
-    font-weight: bold;
-    text-align: center;
-    padding: 10px 0;
-    border-bottom: 1px solid gray;
-}
 
 /* Partner Section */
 
