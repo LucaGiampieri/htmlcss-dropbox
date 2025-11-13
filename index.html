@@ -43,7 +43,26 @@
                         <a class="nav-link-text" href="#"> Funzioni</a>
                     </li>
                     <li>
-                        <a class="nav-link-text" href="#"> Piani e Prezzi</a>
+                        <div class="dropdown">
+                            <button class="dropdown-text">
+                                Piani e Prezzi
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#price-anchor" class="dropdown-content-text">
+                                    <i class="fa-solid fa-user"></i>
+                                    Singolo
+                                </a>
+                                <a href="#price-anchor" class="dropdown-content-text">
+                                    <i class="fa-solid fa-users"></i>
+                                    Team
+                                </a>
+                                <a href="#price-anchor" class="dropdown-content-text">
+                                    <i class="fa-solid fa-building"></i>
+                                    Azienda
+                                </a>
+                            </div>
+                        </div>
+
                     </li>
                 </ul>
             </div>
@@ -60,7 +79,22 @@
                         <a class="nav-link-text" href="#"> Contatta l'ufficio vendite</a>
                     </li>
                     <li>
-                        <a class="nav-link-text" href="#">Accedi</a>
+                        <div class="dropdown">
+                            <button class="dropdown-text">
+                                Accedi
+                            </button>
+                            <div class="dropdown-content">
+                                <div class="dropdown-content-text">
+                                    email
+                                    <input type="text">
+                                </div>
+                                <div class="dropdown-content-text">
+                                    password
+                                    <input type="text">
+                                </div>
+                            </div>
+
+                        </div>
                     </li>
                     <li>
                         <a class="button" href="#">Inizia</a>
@@ -122,7 +156,7 @@
 
                 <!-- Subscription Title -->
                 <h2 id="subscription-title">Trova il piano business che fa per te</h2>
-
+                <div id="price-anchor"></div>
                 <!-- Subscription Billings -->
                 <div class="billing flex">
                     <div class="billing-text flex">
@@ -139,6 +173,7 @@
                 <div class="subscriprions-container flex">
 
                     <!-- Singolo Column -->
+
                     <div class="subscription-column">
                         <div class="subscription-card-top">
                             <i class="fa-solid fa-user"></i>
