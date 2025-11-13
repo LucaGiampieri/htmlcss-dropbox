@@ -24,6 +24,24 @@ li {
     list-style-type: none;
 }
 
+.button {
+    display: inline-block;
+    color: white;
+    background-color: #0161FE;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.sections-container {
+    width: 70%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
 /* Header */
 
 .header {
@@ -66,6 +84,60 @@ li {
 
 .nav-link-text:hover {
     border-bottom: 3px solid black;
+}
+
+/* Jumbotron */
+
+.jumbotron-top {
+    background-color: #B4D0E6;
+}
+
+.jumbotron-bottom {
+    height: 100px;
+    border-bottom: 1px solid gray;
+}
+
+.jumbotron-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#Jumbotron-title {
+    font-size: 75px;
+    font-weight: 900;
+    padding-top: 50px;
+}
+
+.jumbotron-left-section {
+    flex-basis: 25%;
+
+}
+
+.jumbotron-right-section {
+    flex-basis: 75%;
+}
+
+.jumbotron-text {
+    padding-top: 75px;
+    padding-bottom: 40px;
+}
+
+.jumbotron-text-bottom {
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.jumbotron-arrow {
+    color: black;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.jumbotron-img {
+    max-width: 100%;
+    position: relative;
+    top: 75px;
 }
 
 /* Footer */
@@ -117,89 +189,14 @@ li {
     border-top: 1px solid white;
 }
 
-.button {
-    display: inline-block;
-    color: white;
-    background-color: #0161FE;
-    padding: 10px;
-    transition: transform 0.3s;
-}
-
-.button:hover {
-    transform: scale(1.1);
-}
-
-
 
 /* Debug */
 
 
-/* Jumbotron */
-
-.jumbotron-top {
-    background-color: #B4D0E6;
-}
-
-.jumbotron-bottom {
-    height: 100px;
-    border-bottom: 1px solid gray;
-}
-
-.jumbotron-container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-#Jumbotron-title {
-    font-size: 75px;
-    font-weight: 900;
-    padding-top: 50px;
-}
-
-.jumbotron-left-section {
-    flex-basis: 25%;
-
-}
-
-.jumbotron-right-section {
-    flex-basis: 75%;
-}
-
-.jumbotron-text {
-    padding-top: 75px;
-    padding-bottom: 40px;
-}
-
-.jumbotron-text-bottom {
-    padding-top: 40px;
-    padding-bottom: 100px;
-}
-
-.jumbotron-arrow {
-    color: black;
-    font-size: 40px;
-    padding-bottom: 20px;
-}
-
-.jumbotron-img{
-    max-width: 100%;
-    position: relative;
-    top: 75px;
-}
-
-/* Sections */
-
-.sections-container {
-    width: 70%;
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
 /* Subscription Rates Section  */
 
-.subscription-title {
-    padding: 40px 0;
+#subscription-title {
+    padding-top: 70px;
     font-size: 40px;
 }
 
@@ -243,6 +240,82 @@ li {
 .subscription-row {
     flex-basis: 100%;
     border: 1px solid gray;
+}
+
+/* Column Sections */
+
+.column-top {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+
+.column-bottom {
+    padding: 40px;
+}
+
+.subscription-column-title {
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.column-price {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.column-time {
+    color: grey;
+    padding-bottom: 40px;
+}
+
+.column-users {
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+.column-storage {
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+.column-share {
+    padding-bottom: 50px;
+    gap: 10px;
+}
+
+.column-button{
+    padding: 10px 43px;
+}
+
+.column-buy{
+    padding: 50px 0;
+}
+
+.column-border-bottom{
+    padding-bottom: 50px;
+    border-bottom: 1px solid gray;
+}
+
+.column-buy-now{
+    color: blue;
+    text-decoration: underline;
+}
+
+.column-subtitle{
+    padding-top: 60px;
+    font-size: 16px;
+}
+
+.column-footer-text{
+    padding: 30px 0;
+    gap: 10px;
+}
+
+.column-check{
+    color: blue;
 }
 
 /* Partner Section */
