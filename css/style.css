@@ -30,6 +30,7 @@ li {
     background-color: #0161FE;
     padding: 10px;
     transition: transform 0.3s;
+    cursor: pointer;
 }
 
 .button:hover {
