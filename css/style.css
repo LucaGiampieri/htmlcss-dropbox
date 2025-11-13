@@ -148,19 +148,18 @@ li {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px 0;
+    padding-bottom: 50px;
 }
 
 #Jumbotron-title {
-    text-align: center;
-    font-size: 100px;
-    padding: 30px 0;
+    font-size: 75px;
+    font-weight: 900;
+    padding: 50px 0;
 }
 
 .jumbotron-left-section {
     flex-basis: 30%;
-    height: 400px;
-    background-color: blue;
+   
 }
 
 .jumbotron-right-section {
@@ -168,6 +167,11 @@ li {
     height: 400px;
     background-color: aquamarine;
 }
+
+.jumbotron-text{
+    padding-bottom: 20px;
+}
+
 
 /* Sections */
 
